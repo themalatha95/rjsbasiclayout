@@ -4,6 +4,7 @@ import Cards from './Components/Cards';
 import Header from './Components/Header';
 import Lsbox from './Components/Lsbox';
 import Rsbox from './Components/Rsbox';
+import DataTable from './Components/DataTable';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
     <Container style={{marginTop:'10px'}}>
       <Row>
       <Col sm={6} lg={9}>
-        <Lsbox />
+        <DataTable />
       </Col>  
       <Col sm={6} lg={3}>
         <Rsbox />
